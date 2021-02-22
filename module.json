@@ -1,6 +1,6 @@
 {
-    "name": "HelloWorld",
-    "alias": "helloworld",
+    "name": "HelloWorldModule",
+    "alias": "helloworld-module",
     "description": "",
     "keywords": [],
     "priority": 0,
