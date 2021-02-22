@@ -1,0 +1,23 @@
+{
+    "name": "girisoft/helloworld",
+    "description": "",
+    "authors": [
+        {
+            "name": "Dev Giri",
+            "email": "dev.giridhari@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\HelloWorld\\": ""
+        }
+    }
+}
