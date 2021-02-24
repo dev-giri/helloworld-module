@@ -1,7 +1,7 @@
 {
     "name": "girisoft/todo",
     "version": "dev-master",
-    "description": "",
+    "description": "The todo module of GiriSoft",
     "authors": [
         {
             "name": "Dev Giri",
@@ -9,7 +9,7 @@
         }
     ],
     "require": {
-        "tcg/voyager": "1.4.x-dev"
+        
     },
     "extra": {
         "laravel": {
