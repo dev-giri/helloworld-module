@@ -1,5 +1,6 @@
 {
-    "name": "dev-giri/helloworld-module",
+    "name": "girisoft/todo",
+    "version": "dev-master",
     "description": "",
     "authors": [
         {
@@ -7,6 +8,9 @@
             "email": "dev.giridhari@gmail.com"
         }
     ],
+    "require": {
+        "tcg/voyager": "1.4.x-dev",
+    },
     "extra": {
         "laravel": {
             "providers": [],
@@ -17,7 +21,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Modules\\HelloWorld\\": ""
+            "Modules\\Todo\\": ""
         }
     }
 }

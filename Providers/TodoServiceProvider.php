@@ -1,21 +1,21 @@
 <?php
 
-namespace Modules\HelloWorld\Providers;
+namespace Modules\Todo\Providers;
 
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Database\Eloquent\Factory;
 
-class HelloWorldServiceProvider extends ServiceProvider
+class TodoServiceProvider extends ServiceProvider
 {
     /**
      * @var string $moduleName
      */
-    protected $moduleName = 'HelloWorld';
+    protected $moduleName = 'Todo';
 
     /**
      * @var string $moduleNameLower
      */
-    protected $moduleNameLower = 'helloworld';
+    protected $moduleNameLower = 'todo';
 
     /**
      * Boot the application events.

@@ -1,12 +1,13 @@
 <?php
 
-namespace Modules\HelloWorld\Http\Controllers;
+namespace Modules\Todo\Http\Controllers;
 
 use Illuminate\Contracts\Support\Renderable;
 use Illuminate\Http\Request;
+use TCG\Voyager\Facades\Voyager;
 use Illuminate\Routing\Controller;
 
-class HelloWorldController extends Controller
+class TodoController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -14,7 +15,7 @@ class HelloWorldController extends Controller
      */
     public function index()
     {
-        return view('helloworld::index');
+        return view('todo::index');
     }
 
     /**
@@ -23,7 +24,7 @@ class HelloWorldController extends Controller
      */
     public function create()
     {
-        return view('helloworld::create');
+        return view('todo::create');
     }
 
     /**
@@ -43,7 +44,7 @@ class HelloWorldController extends Controller
      */
     public function show($id)
     {
-        return view('helloworld::show');
+        return view('todo::show');
     }
 
     /**
@@ -53,7 +54,7 @@ class HelloWorldController extends Controller
      */
     public function edit($id)
     {
-        return view('helloworld::edit');
+        return view('todo::edit');
     }
 
     /**

@@ -1,11 +1,11 @@
 <?php
 
-namespace Modules\HelloWorld\Database\Seeders;
+namespace Modules\Todo\Database\Seeders;
 
 use Illuminate\Database\Seeder;
 use Illuminate\Database\Eloquent\Model;
 
-class HelloWorldDatabaseSeeder extends Seeder
+class TodoDatabaseSeeder extends Seeder
 {
     /**
      * Run the database seeds.
@@ -16,6 +16,6 @@ class HelloWorldDatabaseSeeder extends Seeder
     {
         Model::unguard();
 
-        // $this->call("OthersTableSeeder");
+        // $this->call(OthersTableSeeder::class);
     }
 }

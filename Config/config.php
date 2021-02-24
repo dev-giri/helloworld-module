@@ -1,6 +1,7 @@
 <?php
 
 return [
-    'name' => 'HelloWorld',
-    'icon' => 'file-text'
+    'name' => 'Todo',
+    "version" => "1.0.1",
+    'icon' => 'file-text',
 ];

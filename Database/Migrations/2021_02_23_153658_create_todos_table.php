@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateHelloworldTable extends Migration
+class CreateTodosTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,10 +13,9 @@ class CreateHelloworldTable extends Migration
      */
     public function up()
     {
-        Schema::create('helloworld', function (Blueprint $table) {
+        Schema::create('todos', function (Blueprint $table) {
             $table->id();
-            $table->string('name')->nullable();
-            $table->string('value')->nullable();
+
             $table->timestamps();
         });
     }
@@ -28,6 +27,6 @@ class CreateHelloworldTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('helloworld');
+        Schema::dropIfExists('todos');
     }
 }

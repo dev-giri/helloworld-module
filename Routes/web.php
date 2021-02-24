@@ -11,6 +11,6 @@
 |
 */
 
-Route::prefix('helloworld')->group(function() {
-    Route::get('/', 'HelloWorldController@index');
+Route::prefix('todo')->group(function() {
+    Route::get('/', 'TodoController@index');
 });

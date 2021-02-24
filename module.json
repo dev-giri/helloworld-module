@@ -1,11 +1,11 @@
 {
-    "name": "HelloWorldModule",
-    "alias": "helloworld-module",
+    "name": "Todo",
+    "alias": "todo",
     "description": "",
     "keywords": [],
     "priority": 0,
     "providers": [
-        "Modules\\HelloWorld\\Providers\\HelloWorldServiceProvider"
+        "Modules\\Todo\\Providers\\TodoServiceProvider"
     ],
     "aliases": {},
     "files": [],
