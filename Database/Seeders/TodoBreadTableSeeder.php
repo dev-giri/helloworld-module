@@ -15,7 +15,7 @@ use Modules\Todo\Entities\Todo;
 
 class TodoBreadTableSeeder extends Seeder
 {
-    use BreadSeeder;
+    //use BreadSeeder;
 
     public function bread()
     {
@@ -81,18 +81,18 @@ class TodoBreadTableSeeder extends Seeder
 
     public function menuEntry()
     {
-        // return [
-        //     'role'        => 'admin',
-        //     'title'       => 'Todo',
-        //     'url'         => '',
-        //     'route'       => 'voyager.todos.index',
-        //     'target'      => '_self',
-        //     'icon_class'  => 'voyager-file-text',
-        //     'color'       => null,
-        //     'parent_id'   => null,
-        //     'parameters' => null,
-        //     'order'       => 10,
-        // ];
+        return [
+            'role'        => 'admin',
+            'title'       => 'Todo',
+            'url'         => '',
+            'route'       => 'voyager.todos.index',
+            'target'      => '_self',
+            'icon_class'  => 'voyager-file-text',
+            'color'       => null,
+            'parent_id'   => null,
+            'parameters' => null,
+            'order'       => 10,
+        ];
     }
 
     

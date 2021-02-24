@@ -15,7 +15,15 @@ class TodoController extends Controller
      */
     public function index()
     {
-        return view('todo::index');
+        $pageConfigs = [
+          'pageHeader' => false,
+          'contentLayout' => "content-left-sidebar",
+          'pageClass' => 'todo-application',
+        ];
+
+        return view('todo::index', [
+          'pageConfigs' => $pageConfigs
+        ]);
     }
 
     /**
